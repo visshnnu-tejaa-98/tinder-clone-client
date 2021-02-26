@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import TinderCards from './components/TinderCards';
 
 function App() {
 	return (
@@ -7,7 +8,7 @@ function App() {
 			{/* start of header */}
 			<Header />
 			{/* end of header */}
-
+			<TinderCards />
 			{/* start of cards */}
 
 			{/* end of cards */}
