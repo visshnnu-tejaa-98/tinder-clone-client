@@ -1,21 +1,17 @@
 import './App.css';
 import Header from './components/Header';
 import TinderCards from './components/TinderCards';
+import SwipeButtons from './components/SwipeButtons';
 
 function App() {
 	return (
 		<div className='app'>
-			{/* start of header */}
+			{/*header */}
 			<Header />
-			{/* end of header */}
+			{/*cards */}
 			<TinderCards />
-			{/* start of cards */}
-
-			{/* end of cards */}
-
-			{/* start of swipe buttons */}
-
-			{/* end of swipe buttons */}
+			{/* swipe buttons */}
+			<SwipeButtons />
 		</div>
 	);
 }
